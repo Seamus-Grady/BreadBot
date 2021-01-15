@@ -1,7 +1,9 @@
 import random
-import discord
 
-TOKEN = 'Nzk0NjcyMjU0ODIyNTE0Njg4.X--ONQ.vZFcP-ccgvJLMa7h58hjacjz6Q0'
+import discord
+import os
+
+TOKEN = os.environ['DISCORD_TOKEN']
 
 client = discord.Client()
 
